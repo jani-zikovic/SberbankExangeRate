@@ -1,0 +1,20 @@
+import jdk.internal.dynalink.linker.LinkerServices
+
+plugins {
+    id 'java'
+}
+
+group 'Sberbank'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+
+}
